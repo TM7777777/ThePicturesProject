@@ -3,7 +3,9 @@
   padding: 0;
   margin: 0;
 }
-
+body {
+  background-color: rgba(139, 131, 131, 0.658);
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -12,21 +14,34 @@
   align-content: center;
 }
 .list {
-  padding: 0px;
+  display: flex;
+  padding: 10px;
   margin: 10px;
 }
 
 li {
   display: inline;
   justify-content: flex-start;
+  position: relative;
   padding: 0px;
-  margin: 10px;
+  margin: 8px;
 }
 
 li .pc {
   display: inline-flex;
   cursor: pointer;
+  border-radius: 20px;
   width: 100px;
-  height: 600px;
-  background-color: black;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: green;
+  transition: all 600ms;
+}
+
+div .tit {
+  position: absolute;
+  bottom: 20px;
+  color: aliceblue;
 }
