@@ -44,4 +44,6 @@ div .tit {
   position: absolute;
   bottom: 20px;
   color: aliceblue;
+  transition: all 350ms;
+  opacity: 0;
 }
